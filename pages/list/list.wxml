@@ -1,0 +1,18 @@
+<import src="../tpls/product/product_tpl.wxml"/>
+<view class="container">
+ <!--choose-->
+ <view class="choose">
+  <view><text>综合</text></view>
+  <view><text>最新</text></view>
+  <view><text>价格</text><image class="price_img" src='http://shop.wfdsfc.com/images/uandd_icon.png'></image></view>
+  <view><text>销量</text></view>
+ </view>
+ <!--choose_end-->
+ <!--list-->
+ <view class="list">
+  <block wx:for="{{7}}">
+   <template is="product"/>
+  </block>
+ </view>
+ <!--list_end-->
+</view>

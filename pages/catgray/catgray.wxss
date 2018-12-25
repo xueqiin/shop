@@ -1,0 +1,49 @@
+.container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.search{
+  width: 100%;
+  height:50px;
+  background-color: #efeff4;
+  border-top: 1px solid #e3e3e3;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+.search input{
+  width: 90%;
+  height: 35px;
+  border: 1px solid #e3e3e3;
+  border-radius: 20rpx;
+  background-color: #ffffff;
+  margin: 12rpx 20rpx 20rpx 5%;
+  text-align: center;
+  line-height: 35px;
+}
+
+.catgray{
+  width: 100%;
+}
+
+.catray_box{
+  width: 138rpx;
+  height: 200rpx;
+  float: left;
+  margin-top: 50rpx;
+  margin-left: 40rpx;
+}
+
+.catray_box image{
+  width: 100%;
+  height: 138rpx;
+}
+
+.catray_name{
+  width: 100%;
+  line-height: 20rpx;
+  text-align: center;
+  font-size: 35rpx;
+  color: #555555;
+}

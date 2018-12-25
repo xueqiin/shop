@@ -1,0 +1,97 @@
+<view class='container'>
+  <!--user_info-->
+  <view class="user_info">
+   <view class="user_left">
+    <text class="user_name">一念之间</text>
+    <text class="user_id">(ID:254512121)普通用户</text>
+   </view>
+   <image class="user_icon" src="../../images/icon.png"></image>
+  </view>
+  <!--user_info_end-->
+
+  <!--order_manager-->
+  <view class="order_manager">
+   <!--wait_pay-->
+   <view class="order_list">
+    <image src="../../images/obligation.png"></image>
+    <text>待付款</text>
+   </view>
+   
+   <!--wait_send-->
+   <view class="order_list">
+    <image src="../../images/no_send.png"></image>
+    <text>待发货</text>
+   </view>
+
+   <!--wait_save-->
+   <view class="order_list">
+    <image src="../../images/send.png"></image>
+    <text>待收货</text>
+   </view>
+
+   <!--over-->
+   <view class="order_list">
+    <image src="../../images/over.png"></image>
+    <text>已完成</text>
+   </view>
+
+   <!--sever-->
+   <view class="order_list">
+    <image src="../../images/customer.png"></image>
+    <text>售后</text>
+   </view>
+  </view>
+  <!--order_manager_end-->
+
+  <!--other_list-->
+  <view class="other_list">
+    <!--address-->
+    <view class="other_item">
+     <text>收货地址</text>
+     <image src="../../images/address.png"></image>
+    </view>
+
+    <!--pt-->
+    <view class="other_item">
+     <text>我的拼团</text>
+     <image src="../../images/mypt.png"></image>
+    </view>
+
+    <!--ms-->
+    <view class="other_item">
+     <text>我的秒杀</text>
+     <image src="../../images/myms.png"></image>
+    </view>
+
+    <!--collect-->
+    <view class="other_item">
+     <text>我的收藏</text>
+     <image src="../../images/mycollect.png"></image>
+    </view>
+
+    <!--sever-->
+    <view class="other_item">
+     <text>在线客服</text>
+     <image src="../../images/mysever.png"></image>
+    </view>
+
+    <!--contact-->
+    <view class="other_item">
+     <text>联系我们</text>
+     <image src="../../images/contact.png"></image>
+    </view>
+
+    <!--sever_center-->
+    <view class="other_item">
+     <text>服务中心</text>
+     <image src="../../images/service_center.png"></image>
+    </view>
+
+    <!--about-->
+    <view class="other_item">
+     <text>关于我们</text>
+     <image src="../../images/about.png"></image>
+    </view>
+  </view>
+  <!--other_list_end-->
+</view>

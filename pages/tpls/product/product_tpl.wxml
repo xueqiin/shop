@@ -1,0 +1,10 @@
+<template name="product">
+  <view class='product'>
+    <image src="http://shop.wfdsfc.com/images/tacan1.jpg"></image>
+    <text class="product_t">50元购买590元产检套餐</text>
+    <view class="product_b">
+      <text class='price'>￥50.00</text>
+      <text class='num'>已售208个</text>
+    </view>
+  </view>
+</template>

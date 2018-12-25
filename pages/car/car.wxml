@@ -1,0 +1,44 @@
+<view class="container">
+  <!--car_list-->
+  <view class="car_list">
+    <!--car_item-->
+
+    <block wx:for="{{6}}">
+    <view class="car_item">
+      <view class="ck">
+        <checkbox value='1' checked=''></checkbox>
+      </view>
+
+      <image class="thum_img" src='http://shop.wfdsfc.com/images/tacan1.jpg'></image>
+
+      <view class="buy_info">
+        <text class="good_name">50元购买590元产检套餐</text>
+        <text class="good_gg">规格：默认</text>
+        <view class="choose_num">
+          <text>￥50</text>
+          <view class="choose_in">
+            <view>-</view>
+            <input value='1' />
+            <view>+</view>
+          </view>
+        </view>
+      </view>
+    </view>
+    </block>
+
+    <!--car_item_end-->
+  </view>
+
+  <!--total_price-->
+  <view class='total_price'>
+    <view class='radio'><radio>全选</radio></view>
+    
+    <view class="total">
+     <text>总计:￥</text>
+     <text>总数:0</text>
+    </view>
+
+    <view class="edit">编辑</view>
+    <view class="balance">结算</view>
+  </view>
+</view>

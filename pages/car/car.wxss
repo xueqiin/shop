@@ -1,0 +1,144 @@
+page {
+  background-color: #f9f9f9;
+}
+
+.container {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.car_list {
+  width: 100%;
+  height: auto;
+  margin-bottom: 60px;
+}
+
+.car_item {
+  width: 100%;
+  height: 128px;
+  margin-top: 2%;
+  border-bottom: 1px solid #d8d3d3;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+}
+
+.ck {
+  width: 10%;
+  height: 100%;
+  line-height: 128px;
+  text-align: center;
+}
+
+.thum_img {
+  width: 30%;
+  height: 80%;
+  margin-top: 3%;
+}
+
+.buy_info {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.good_name {
+  margin-top: 5%;
+  margin-left: 5%;
+  font-size: 32rpx;
+}
+
+.good_gg {
+  margin-top: 5%;
+  margin-left: 5%;
+  font-size: 28rpx;
+}
+
+.choose_num {
+  height: 38px;
+  margin-top: 7%;
+  margin-left: 5%;
+  display: flex;
+  flex-direction: row;
+}
+
+.choose_num text {
+  font-size: 36rpx;
+  color: red;
+}
+
+.choose_in {
+  width: 65%;
+  height: 100%;
+  margin-left: 15%;
+  text-align: center;
+  line-height: 38px;
+  display: flex;
+  flex-direction: row;
+}
+
+.choose_in view {
+  width: 76rpx;
+  height: 38px;
+  background-color: #f7f7f7;
+}
+
+.choose_in input {
+  width: 152rpx;
+  height: 38px;
+  line-height: 38px;
+  margin-left: 2%;
+  margin-right: 2%;
+  background-color: #f7f7f7;
+}
+
+.total_price {
+  width: 100%;
+  height: 55px;
+  background-color: #fff;
+  position: fixed;
+  bottom: 0;
+  border-top: 1px solid #d8d3d3;
+  z-index: 100;
+  display: flex;
+  flex-direction: row;  
+}
+
+.radio {
+  width: 18%;
+  height: 100%;
+  line-height: 55px;
+  text-align: center;
+  font-size: 30rpx;
+}
+
+.total {
+  width: 38%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  color:red;
+  line-height: 30px;
+  padding:0;
+  font-size: 28rpx;
+}
+
+.edit,.balance{
+  width: 22%;
+  height: 100%;
+  line-height: 55px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 32rpx;
+}
+
+.edit {
+  background-color:#f1aa3f;
+}
+
+.balance {
+  background-color: #eb554d;
+}

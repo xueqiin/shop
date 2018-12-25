@@ -1,0 +1,36 @@
+<view class='container'>
+  <!--search-->
+  <view class="search">
+   <input placeholder='搜索'/>
+  </view>
+  <!--search_end-->
+
+  <!--catgray-->
+  <view class="catgray">
+   <view class='catray_box'>
+    <image src='http://shop.wfdsfc.com/images/th_icon.jpg'></image>
+    <text class='catray_name'>感恩特惠</text>
+   </view>
+
+   <view class='catray_box'>
+    <image src='http://shop.wfdsfc.com/images/catgray_icon.jpg'></image>
+    <text class='catray_name'>月子护理</text>
+   </view>
+
+   <view class='catray_box'>
+    <image src='http://shop.wfdsfc.com/images/catgray_icon.jpg'></image>
+    <text class='catray_name'>关爱女性</text>
+   </view>
+
+   <view class='catray_box'>
+    <image src='http://shop.wfdsfc.com/images/catgray_icon.jpg'></image>
+    <text class='catray_name'>顺产套餐</text>
+   </view>
+
+   <view class='catray_box'>
+    <image src='http://shop.wfdsfc.com/images/catgray_icon.jpg'></image>
+    <text class='catray_name'>孕期产检</text>
+   </view>
+  </view>
+  <!--catgray_end-->
+</view>

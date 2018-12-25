@@ -1,0 +1,105 @@
+page{
+  background-color: #f9f9f9;
+}
+
+.container{
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.user_info{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+}
+
+.user_left{
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  margin-left: 33rpx;
+}
+
+.user_name{
+  font-size: 36rpx;
+  font-weight: bold; 
+  letter-spacing: 2px;
+}
+
+.user_id{
+  font-size: 25rpx;
+  letter-spacing: 1px;
+  margin-top: 15px;
+}
+
+.user_icon{
+  width: 128rpx;
+  height: 128rpx;
+  margin-top: 15px;
+  margin-left: 38rpx;
+}
+
+.order_manager{
+  width: 100%;
+  height: 65px;
+  display: flex;
+  flex-direction: row;
+  margin-top:15px;
+  background-color: #ffffff;
+}
+
+.order_list{
+  width:20%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.order_list image{
+  width: 60rpx;
+  height: 30px;
+  margin-top: 10%;
+  margin-left: 30%;
+}
+
+.order_list text{
+  font-size: 25rpx;
+  margin-top: 10%;
+}
+
+.other_list{
+  width: 100%;
+  margin-top: 10px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.other_item{
+  width: 100%;
+  height: 38px;
+  display: flex;
+  flex-direction: row;
+}
+
+.other_item text{
+  width: 50%;
+  line-height: 38px;
+  margin-left: 5%;
+  font-size: 28rpx;
+}
+
+.other_item image{
+  width: 38rpx;
+  height: 25px;
+  margin-top: 7px;
+  margin-left: 30%;
+}
+     

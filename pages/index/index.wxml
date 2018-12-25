@@ -1,0 +1,63 @@
+<import src="../tpls/product/product_tpl.wxml" />
+<view class="container">
+  <!--banner-->
+  <swiper class='swiper' indicator-dots='true' indicator-color='#ffffff' indicator-active-color='#c0c0c0' autoplay='true' interval='3000'>
+    <swiper-item>
+      <image src='http://shop.wfdsfc.com/images/1.jpg'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='http://shop.wfdsfc.com/images/2.jpg'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='http://shop.wfdsfc.com/images/3.jpg'></image>
+    </swiper-item>
+  </swiper>
+  <!--banner_end-->
+  <!--search-->
+  <view class='search-box'>
+    <input type="text" confirm-type="search" placeholder='搜 索' />
+    <view class='search-line'></view>
+  </view>
+  <!--search_end-->
+  <!--menu_button-->
+  <view class='menu'>
+    <!--one-->
+    <view class='menu-item'>
+      <image src='http://shop.wfdsfc.com/images/menu_icon_pt.png'></image>
+      <text>拼团</text>
+    </view>
+    <!--two-->
+    <view class='menu-item'>
+      <image src='http://shop.wfdsfc.com/images/menu_icon_ms.png'></image>
+      <text>秒杀</text>
+    </view>
+    <!--three-->
+    <view class='menu-item'>
+      <image src='http://shop.wfdsfc.com/images/menu_icon_list.png'></image>
+      <text>门店列表</text>
+    </view>
+    <!--four-->
+    <view class='menu-item'>
+      <image src='http://shop.wfdsfc.com/images/menu_icon_yh.png'></image>
+      <text>店庆优惠</text>
+    </view>
+  </view>
+  <!--menu_button_end-->
+  <!--list-->
+  <block wx:for="{{3}}">
+  <view class="list">
+    <!--title-->
+    <view class="list_title">
+      <text class='title'>感恩优惠</text>
+      <text class="more">更多 ></text>
+    </view>
+    <!--list_product-->
+    <view class='list_product'>
+      <block wx:for="{{6}}">
+        <template is="product" />
+      </block>
+    </view>
+  </view>
+  </block>
+  <!--list_end-->
+</view>
